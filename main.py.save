@@ -1,0 +1,14 @@
+import os
+screenData = [[' ']*100]*40
+def display():
+	todisp = ''
+	for i in screenData:
+		for j in i:
+			todisp += str(j)
+		todisp+='\n'
+	print(todisp)
+def rect(x,y,w,h):
+	for i in range(
+
+display()
+
