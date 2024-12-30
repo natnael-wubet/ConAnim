@@ -3,7 +3,7 @@ import math
 class Script():
     def __init__(self,p5):
         self.p5 = p5
-        self.p5.size(100,30)
+        self.p5.size(100,100)
         self.p5.background("'")
         self.p5.stroke = '*'
         pass
@@ -24,5 +24,5 @@ class Script():
         self.p5.background(' ')
         height = self.p5.height
         width = self.p5.width	
-        self.tree(3,3,height)
+        self.tree(7,5,height)
         #self.p5.rect(1,1,10,10)

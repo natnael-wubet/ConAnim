@@ -2,7 +2,7 @@
 from main import P5py
 import time
 import os
-from lineart import Script
+from ffttest import Script
 p5 = P5py()
 app = Script(p5)
 while 1:

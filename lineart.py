@@ -11,7 +11,7 @@ class Script():
 		self.p5.background(' ')
 		height = self.p5.height
 		width = self.p5.width
-		for i in range(0,10+int(self.p5.frameCount/50)):
+		for i in range(0,50+int(self.p5.frameCount/50)):
 			self.p5.stroke = self.charset[i%len(self.charset)]
 			f = self.p5.frameCount+(i*3)		
 			x = width/2+math.sin(f/32)*width/3
